@@ -122,7 +122,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 </div> <!-- end of column-->
 </div> <!-- end of row-->
 <div class="row">
-<div class="col-md-4 mrgn-tp-lg pull-left">
+<div class="col-md-8 mrgn-tp-lg pull-left">
 <section>
 <h2>Why </h2>
 <p>As part of its commitment to improve Nutrition North Canada (NNC), the Government of Canada is seeking input from community members and other stakeholders on how the program can be more transparent, cost-effective, and culturally appropriate in the face of growing demand for healthy food in the North.</p>
@@ -331,32 +331,57 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 				<div class="form-group">
 		            	<label for="word1"><span class="field-name">Your ideas and feedback on how to manage costs over the long term</span></label>
 		            	<input class="form-control" id="word1" name="word1" type="text"  />
-				</div>
+		            	 <textarea name="costs1" rows="2" cols="10" id="costs1" class="form-control full-width" aria-describedby="helpBlock1" style="height:100px;">
+				</textarea>
+                    		</div>
+                    <span id="helpBlock1" class="help-block text-right">1000 words maximum</span>
+		</fieldset>
+		<fieldset>		
 				<div class="form-group">
-					<label for="bversion" class="required"><span class="field-name">Browser version number or type of phone:</span><strong class="required">(required)</strong></label>
-					<p><a href="#right-panel-version" aria-controls="right-panel-version" class="overlay-lnk" role="button">How to find browser version number</a></p>
+                    	<label for="ContentPlaceHolder1_TextBoxName" class="required">
+                        <span class="field-name">Your name</span>
+                        <p><a href="#right-panel-version" aria-controls="right-panel-version" class="overlay-lnk" role="button">Why do we need your name?</a></p>
 					<section id="right-panel-version" class="wb-overlay modal-content overlay-def wb-panel-r" style="max-width:60%;">	
 						<header class="modal-header">
-							<h2 class="modal-title">Help for browser version number</h2>
+							<h2 class="modal-title">Why we need your name</h2>
 						</header>
 						<div class="modal-body">
 							 <dl class="mrgn-bttm-lg">
-							 	<dt class="h3 mrgn-tp-md">Phone or Tablet </dt>
-							 	<dd>On a phone or tablet? No browser version required, just type in the name of the phone. For example: iPhone 6S or Samsung Galaxy.</dd>
-								<dt class="h3 mrgn-tp-md">Internet Explorer and Firefox </dt>
-								<dd>Internet Explorer &amp; Firefox: use Help in menu bar, then About Internet Explorer or Alt-H-A (then Escape to exit)</dd>
-							  	<dt class="h3 mrgn-tp-md">Chrome </dt>
-								<dd>Chrome:type "chrome:help" into the address bar (then BACK to exit) or use the menu (icon is 3 horizontal lines, in browser address bar), then About Google Chrome.</dd>
-								 <dt class="h3 mrgn-tp-md">Safari </dt>
-								<dd>Safari: use About Safari in the Safari menu.</dd>
+							 	<dd>Your name helps us make sure that each Canadian's views are counted, rather than the same person submitting an idea multiple times.</dd>
 							</dl>
 						</div>
 						<div class="modal-body">
         						<button class="btn btn-primary" type="button" onClick="$( '.wb-overlay' ).trigger( 'close.wb-overlay' );">Close</button>
 						</div>
 					</section>
-					<input class="form-control" id="bversion" name="bversion" type="text" aria-describedby="bversion" required="required">
-				</div>
+                        <strong class="required">(required)</strong>
+                    </label>
+                    &nbsp;
+                    <input name="resp_name" type="text" id="ContentPlaceHolder1_TextBoxName" class="form-control" required="required" />
+                </div>
+
+                <div class="form-group">
+                    <label for="ContentPlaceHolder1_DropDownListSector" class="required">
+                        <span class="field-name">Select the point of view you best represent:</span>
+                        <strong class="required">(required)</strong>
+                    </label>
+                    &nbsp;
+                    <select name="ContentPlaceHolder1_DropDownListSector" id="ContentPlaceHolder1_DropDownListSector" class="form-control" required="required">
+				<option value="">-- Select --</option>
+				<option value="Personal views">My own personal views</option>
+				<option value="Employer Associations">Employer Associations</option>
+				<option value="Chambers of Commerce or business councils">Chambers of Commerce or business councils</option>
+				<option value="Labour organizations">Labour organizations</option>
+				<option value="Multicultural or ethno-cultural associations ">Multicultural or ethno-cultural associations </option>
+				<option value="Municipalities ">Municipalities </option>
+				<option value="Indigenous Groups">Indigenous Groups</option>
+				<option value="Academia">Academia</option>
+				<option value="Learning institutions">Learning institutions</option>
+				<option value="Other">Other</option>
+
+			</select>
+                </div>
+
 			</fieldset>
 			<input type="submit" value="Next" class="btn btn-primary" >
 		</form>
