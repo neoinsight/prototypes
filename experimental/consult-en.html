@@ -122,8 +122,17 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
     
 <div class="row">
     <div class="col-md-9">
-      <label for="keywords">Find a consultation or report:</label>
-      <input class="" type="search" placeholder="Keywords" id="keywords" name="keywords">
+      <h2 id="find-header">Find a consultation or report</h2>
+      <form action="index-eng.php" method="post">
+      <div>
+       <label for="contains">Contains</label><br/>
+       <div class="input-group">
+         <input type="text" class="form-control" id="contains" name="contains" aria-describedby="find-header">
+         <span class="input-group-btn">
+			       <button class="btn btn-primary" type="submit">Find</button>
+		       </span>
+       </div>
+     </div>
     </div>
 </div>
 
