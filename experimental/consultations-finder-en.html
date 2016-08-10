@@ -131,19 +131,50 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 </div>
 <details open="open" class="mrgn-tp-lg">
 			<summary><strong>Filter your results</strong></summary>            
-<div class="mrgn-bttm-md form-group">
-<label for="type">Current Status</label><br />
-<select id="current status" name="current status" class="form-control full-width">
-<option value="open">Open</option>
-<option value="closed-completed">Closed - completed</option> 
+	<div class="mrgn-bttm-md form-group">
+		<label for="type">Current Status</label><br />
+		<select id="current status" name="current status" class="form-control full-width">
+			<option value="open">Open</option>
+			<option value="closed-completed">Closed - completed</option> 
+		</select>
+		<div class="form-group">
+			<label for="year">Year</label><br />
+			<select id="year" name="year" class="form-control full-width">
+				<option value="16">2016</option>
+				<option value="15">2015</option>
+				<option value="14">2014</option>
+				<option value="13">2013</option>
+				<option value="12">2012</option>
+				<option value="11">2011</option>
+				<option value="10">2010</option>
+				<option value="09">2009</option>
+				<option value="08">2008</option>
+				<option value="07">2007</option>
+				<option value="06">2006</option>
+			</select>
+		</div>
+<div class="form-group">
+<label for="month">Month</label><br />
+<select id="month" name="month" class="form-control full-width">
+<option value='01'>January</option>
+<option value='02'>February</option>
+<option value='03'>March</option>
+<option value='04'>April</option>
+<option value='05'>May</option>
+<option value='06'>June</option>
+<option value='07'>July</option>
+<option value='08'>August</option>
+<option value='09'>September</option>
+<option value='10'>October</option>
+<option value='11'>November</option>
+<option value='12'>December</option>
 </select>
 </div>
-<div class="panel-body">
-<ul class="list-unstyled lst-spcd mrgn-tp-0">
-                              <li><a href="http://shawnthompson.github.io/GCWeb-search/all-results-en.html">All organizations</a></li>
-                         </ul>
-                         <h3 class="h4 mrgn-tp-lg">By Organization</h3>
-                         <ul class="list-unstyled lst-spcd">
+        <details class="panel panel-default mrgn-bttm-0 srch-org-lst">
+                    <summary class="panel-heading">By organization</summary>
+                    <div class="panel-body">
+                         <ul class="list-unstyled lst-spcd mrgn-tp-0">
+                              <li><a href="http://shawnthompson.github.io/GCWeb-search/all-results-en.html">All organizations</a> <i class="glyphicon glyphicon-ok"></i></li>
                               <li><a href="https://www.aadnc-aandc.gc.ca/eng/1375201178602/1375202816581">Aboriginal Business Canada</a></li>
                               <li><a href="/en/administrative-tribunals-support-service.html">Administrative Tribunals Support Service of Canada</a></li>
                               <li><a href="/en/agriculture-agri-food.html">Agriculture and Agri-Food Canada</a></li>
@@ -360,42 +391,13 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
                               <li><a href="/en/western-economic-diversification.html">Western Economic Diversification Canada</a></li>
                          </ul>
 </div>
-<div class="form-group">
-<label for="year">Year</label><br />
-<select id="year" name="year" class="form-control full-width">
-<option value="16">2016</option>
-<option value="15">2015</option>
-<option value="14">2014</option>
-<option value="13">2013</option>
-<option value="12">2012</option>
-<option value="11">2011</option>
-<option value="10">2010</option>
-<option value="09">2009</option>
-<option value="08">2008</option>
-<option value="07">2007</option>
-<option value="06">2006</option>
-</select>
-</div>
-<div class="form-group">
-<label for="month">Month</label><br />
-<select id="month" name="month" class="form-control full-width">
-<option value='01'>January</option>
-<option value='02'>February</option>
-<option value='03'>March</option>
-<option value='04'>April</option>
-<option value='05'>May</option>
-<option value='06'>June</option>
-<option value='07'>July</option>
-<option value='08'>August</option>
-<option value='09'>September</option>
-<option value='10'>October</option>
-<option value='11'>November</option>
-<option value='12'>December</option>
-</select>
-</div>
+</details>
 <div class="form-group">
 	<label for="topic">Topic</label><br />
 	<select id="topic" name="topic" class="form-control full-width">
+						<option value="16">Jobs and the workplace</option>
+				<option value="15">Job bank</option>
+				<option value="14">Find a job</option>
 	</select>
 </div>
 <div class="row">
