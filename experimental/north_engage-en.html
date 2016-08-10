@@ -405,32 +405,49 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			</div>
 			</div>
 			<div class="form-group">
-                        <p>By participating in this consultation, you are consenting to, and acknowledging that you have read, 
-                    understood, and agree that your submission, or portions thereof, may be published on the 
-                    Canada.ca website, included in publicly available reports on the 
-                    consultation, and compiled with other responses to the consultation in an open-data submission on 
-                    Open.Canada.ca.</p>
-                    <label for="use_name">Would you like your name and/or the name of your organization associated with your comments?</label>
-                    <select id="use_name" class="form-control">
-				<option value="">-- Select --</option>
-				<option value="Personal views">Yes I would like my name associated with my comments.</option>
-				<option value="Employer Associations">Yes I would like my organization associated with my comments</option>
-				<option value="Chambers of Commerce or business councils">Yes I would like both my name and my organization associated wth my comments</option>
-				<option value="Labour organizations">No I do not wish to provide my name</option>
-			</select>
+                        <p>Your input may be published on the Canada.ca and Open.Canada.ca websites and included in publicly available reports on the consultation.</p>
+                    <div class="form-group">
+                         <p><a href="#right-panel-version" aria-controls="right-panel-version" class="overlay-lnk" role="button">How your input is used and protected</a></p>
+					<section id="right-panel-version" class="wb-overlay modal-content overlay-def wb-panel-r" style="max-width:60%;">	
+						<header class="modal-header">
+							<h2 class="modal-title">How your input is used and protected</h2>
+						</header>
+						<div class="modal-body">
+							 <dl class="mrgn-bttm-lg">
+							 	<h3>Publishing</h3>
+							 	<dd>By participating in this consultation, you are consenting to, and acknowledging that you have read, understood, and agree that your submission, or portions thereof, may be published on the Canada.ca website, included in publicly available reports on the consultation, and compiled with other responses to the consultation in an open-data submission on Open.Canada.ca.</dd>
+							 	<dd>Your name will only be associated with your input if you agree to do so. </dd>
+							  <p>We will not consider any submission that includes:</p>
+              	<ul>
+                    <li>Input targeting or mentioning specific individuals or applications</li>
+                    <li>Inappropriate or offensive language</li>
+                </ul>
+		<h3>Your privacy</h3>
+							 	<p>The submissions, including any personal, identifying information or contact information, 
+                    accompanying the submission is protected under Canada's Privacy Act and is included in the personal 
+                    information bank 
+                    <a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu914">PSU 914 </a> and 
+                    <a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu938">PSU 938 </a>and found on 
+                    <a href="http://www.infosource.gc.ca/emp/emptb-eng.asp">INFOSOURCE</a>.</p>
+							</dl>
+						</div>
+						<div class="modal-body">
+        						<button class="btn btn-primary" type="button" onClick="$( '.wb-overlay' ).trigger( 'close.wb-overlay' );">Close</button>
+						</div>
+					</section>
                 </div>
 		<div class="form-group">
-		            	<label for="respondent-name"><span class="field-name">How would you like your name to appear?</span></label>
+		            	<label for="respondent-name"><span class="field-name">Your name (optional)</span></label>
 		            	 <textarea rows="1" cols="10" id="respondent-name" class="form-control full-width">
 				</textarea>
+				                <div class="checkbox">
+                    <input id="ContentPlaceHolder1_CheckBox1" type="checkbox" />
+                    <label for="ContentPlaceHolder1_CheckBox1">I would like my name to be published and associated with my comments.</label>
+                </div>
                     </div>
-                    <div class="form-group">
-		            	<label for="respondent-org"><span class="field-name">What is the name of your organization?</span></label>
-		            	 <textarea rows="1" cols="10" id="respondent-org" class="form-control full-width">
-				</textarea>
                     </div>
 			<div class="form-group">
-                    	<label for="resp-name" class="required"><span class="field-name">Your name</span> <strong class="required">(required)</strong></label>
+                    	<label for="resp-name"><span class="field-name">Name of your organization</span></label>
                         <p><a href="#right-panel-version" aria-controls="right-panel-version" class="overlay-lnk" role="button">Your name, confidentiality and privacy</a></p>
 					<section id="right-panel-version" class="wb-overlay modal-content overlay-def wb-panel-r" style="max-width:60%;">	
 						<header class="modal-header">
@@ -449,8 +466,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
                 <ul>
                     <li>Input targeting or mentioning specific individuals or applications</li>
                     <li>Inappropriate or offensive language</li>
-                                    <p>By participating in this consultation, you are consenting to, and acknowledging that you have read, 
-                    understood, and agree that your submission, or portions thereof, may be published on the 
+                                    <p>Your input may be published on the 
                     Canada.ca website, included in publicly available reports on the 
                     consultation, and compiled with other responses to the consultation in an open-data submission on 
                     Open.Canada.ca, <strong>unless you indicate it is to be treated as confidential</strong>.</p>
@@ -462,10 +478,6 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 						</div>
 					</section>
                     <input type="text" id="resp-name" class="form-control" required="required" />
-                </div>
-                <div class="checkbox">
-                    <input id="ContentPlaceHolder1_CheckBox1" type="checkbox" />
-                    <label for="ContentPlaceHolder1_CheckBox1">I would like my submission to be confidential.</label>
                 </div>
 
                 <div class="form-group">
